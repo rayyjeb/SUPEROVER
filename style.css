@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    width: 150px;
+    margin-top: 20px;
+}
+.india{
+    background-color: #155DA2;
+    width: 340px;
+    height: 270px;
+    border-radius: 15PX;
+    padding-top: 25px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pakistan{
+    background-color: #479441;
+    width: 340px;
+    height: 270px;
+    border-radius: 15PX;
+    padding-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.balls{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right:25px ;
+    margin-top: 15px;
+    
+  
+}
+.ball{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    color: black;
+    font-size: 0.75em;
+    font-weight: 700;
+    
+   
+    
+    /* border-radius: 100%; */
+}
+.teams{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    /* font-weight: 600; */
+    
+    
+}
+h1{
+    font-weight: 600;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left:550px ;
+    margin-right: 550px;
+    margin-top: 50px;;
+    
+}
+.button{
+    width:100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    
+}
+.scoreboard{
+    font-weight: 650;
+    margin-top:15px;
+}
+.button:active{
+    animation: clickbutton 0.1s ease-in-out ;
+}
+@keyframes clickbutton {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
